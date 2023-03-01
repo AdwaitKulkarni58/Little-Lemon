@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  background-color: white;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas:
+    "nav "
+    "hero"
+    "highlights"
+    "testimonials"
+    "about"
+    "footer";
+}
+
+.logo {
+  margin-right: 5%;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.navli {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 15px;
+  justify-content: center;
+}
+
+.navli li {
+  display: flex;
+}
+
+.navli a {
+  text-decoration: none;
+  font-family: "Karla";
+  font-style: normal;
+  display: flex;
+  font-size: minmax(17pxa);
+  align-items: center;
+  color: #000000;
+  white-space: initial;
+}
