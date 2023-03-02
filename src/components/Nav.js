@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav className="nav">
       <ul className="navli">
-        <img className=".logo" src={logo} alt="logo"></img>
+        <img class="logo" src={logo} alt="logo"></img>
         <li>
           <a href="/home">Home</a>
         </li>
