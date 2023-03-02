@@ -13,6 +13,16 @@
   }
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -388,6 +398,20 @@
 
 #navigation {
   grid-area: navigation;
+}
+
+#navigation li {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #333333;
+  list-style-type: none;
+}
+
+#navigation ul {
+  padding-left: 0;
 }
 
 .contact {
